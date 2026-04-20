@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--
+	Author: Johnathan Doralus
+	Date: 4/19/2026
+	Description: This project serves as a way for a user to get technical documentation and information regarding common technology problems
+    related to hardware, networking, and software. It includes steps to resolve the issues, contact forms, the purpose and objective of its existence, 
+    rating surveys, links to external resources, etc. This site serves as a great way to explore different avenues of technical documentation and for
+    users to solve problems with technology they may face on a day-to-day basis.
+-->
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="">
+	<title>troubleshoot.io - Home</title>
+	<link rel="stylesheet" href="styles/main.css">
+	<link rel="icon" href="images/technical-support-favicon.png">
+    <style>
+        /* Link color default is white; When hovered, it's orange */
+        a {
+            color: white;
+            text-decoration: none;
+        }
+        a:hover {
+            color: orange;
+        }
+    </style>
+</head>
+<body>
+	<header>
+        <!-- troubleshoot.io Header and Navigation-->
+        <div class="navbar">
+            <a href="#" class="main_logo">troubleshoot.io</a>
+
+            <div class="nav-links">
+                <a href="#">Home</a>
+
+                <div class="dropdown">
+                    <a href="categories/index.html">Categories</a>
+                    <div class="dropdown-menu">
+                    <a href="hardware_issues/index.html">Hardware Issues</a>
+                    <a href="network_issues/index.html">Network Issues</a>
+                    <a href="software_issues/index.html">Software Issues</a>
+                    </div>
+                </div>
+                <a href="about/index.html">About</a>
+                <a href="contact/index.html">Contact</a>
+                <a href="#" class="explore" style="color: black;">Explore</a>
+            </div>
+        </div>
+	</header>
+
+    <!-- Main Header for troubleshoot.io -->
+     <h1 class="main-heading"> troubleshoot.io </h1>
+     <p class="text-under-main-heading">Having trouble resolving common computer hardware, network, or software-related issues?
+        You are in luck! Welcome to troubleshoot.io, where we take pride in having articles to aid you in resolving many of your most 
+        commony technology issues!
+     </p>
+
+     <!-- Troubleshoot Image -->
+    <p style="text-align: center;" class="troubleshoot-main-img ">
+        <img src="images/repair_computer_troubleshoot_image.jpg" alt="troubleshoot_computer_image">
+    </p>
+
+    <!-- Common Computer Issues Needing Troubleshooting This Week -->
+    <h2 class="weekly_common_issues">Common Computer Issues Needing Troubleshooting This Week</h2>
+    <ul style="text-align: center; color:white; display: flex; justify-content: space-between; margin: 2.5em; margin-left: 10em; margin-right: 10em; list-style-type: none;">
+        <li>
+            <img src="images/ram_error_image.jpg" alt="RAM Error" style="height: 10em; display: block;">
+            RAM Error
+            <ul>
+                <li style="list-style-type: none;"><a href="ram_issue/index.html">Here's how to resolve it</a></li>
+            </ul>
+        </li>
+        <li>
+            <img src="images/router_not_conecting.jpg" alt="Router Issue" style="height: 10em; display: block; padding-left: 7em;">
+            Router not connecting
+            <ul>
+                <li style="list-style-type: none;"><a href="router_issue/index.html">Common Router Fixes to get your Wi-Fi connection up and running</a></li>
+            </ul>
+        </li> 
+        <li>
+            <img src="images/microsoft_excel_crash_img.png" alt="Microsoft Excel Issue" style="height: 10em; display: block; padding-left: 4em;">
+            Microsoft Excel Crashes
+            <ul>
+                <li style="list-style-type: none;"><a href="excel_issue/index.html">Most common resolutions to solving the crash issues></a></li>
+            </ul>
+        </li>
+    </ul>
+
+    <section class="testimonials">
+        <h2 class="user-testimonials-heading">User Testimonials</h2>
+
+        <div class="testimonial-container">
+        
+            <!-- Card 1 - John Dorsey - IT Consultant -->
+            <div class="testimonial-card">
+                <p class="testimonial-text">
+                "I was stuck resolving an issue online for hours for a client. There were no good methods online to help me resolve the issue. I came here for 
+                an article and it helped me resolve it within 15 minutes. I couldn't have done without them!"
+                </p>
+                <h3 class="user-name">John Dorsey</h3>
+                <p class="user-role">IT Consultant</p>
+            </div>
+
+            <!-- Card 2 - Tyler Long [Electrical Engineering Student] -->
+            <div class="testimonial-card">
+                <p class="testimonial-text">
+                "This site helped me solve some issues with my assignments when structuring my coding assignments. This site is a gem!"
+                </p>
+                <h3 class="user-name">Tyler Long</h3>
+                <p class="user-role">Electrical Engineering Student</p>
+            </div>
+
+            <!-- Card 3 - George Sung [Network Manager] -->
+            <div class="testimonial-card">
+                <p class="testimonial-text">
+                "This site provided all the information that I needed for my business for my entry-level techs. I am eternally grateful!"
+                </p>
+                <h3 class="user-name">George Sung</h3>
+                <p class="user-role">Network Manager</p>
+            </div>
+        </div>
+    </section>
+
+	<!-- Footer -->
+	<footer>
+		<!-- Footer List -->
+         <p class="footer-title">troubleshoot.io</p>
+         <ul>
+            <li><a href="about/index.html">About</a></li>
+            <li><a href="faq/index.html">FAQ</a></li>
+            <li><a href="categories/index.html">Categories</a></li>
+            <li><a href="mailto:support@troubleshoot.io">support@troubleshoot.io</a></li>
+            <li><i>© 2026 troubleshoot.io. All rights reserved.</i></li>
+         </ul>
+	</footer>
+</body>
+</html>

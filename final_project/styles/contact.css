@@ -1,0 +1,81 @@
+/*
+Author: Johnathan Doralus
+Date: 4/19/2026
+Description: Styling for the contact form and the submission form.
+*/
+
+/* Main Heading Formatting */
+.main-contact-heading {
+    text-align: center;
+    font-size: 3.7em;
+    color: white;
+}
+.text-under-main-contact-heading {
+    text-align: center;
+    font-size: 1.3em;
+    color: white;
+    padding-top: 0.5em;
+    margin-left: 10em;
+    margin-right: 10em;
+    margin-bottom: 1em;
+}
+/* Form CSS Settings */
+form {
+    width: 50%;
+    margin-left: 49em;
+}
+label {
+    display: block;
+    margin-bottom: .25em;
+    color: white;
+}
+input {
+    width: 50%;
+    font-size: inherit;
+    padding: .4em;
+    margin-bottom: .5em;
+    border-color: red;
+}
+#zip_code {
+    border-color: green;
+}
+button {
+    font-size: inherit;
+    font-weight: bold;
+    width: 6em;
+    padding: .4em;
+    background-color: white;
+    color: black;
+}
+button:hover {
+    background-color:black;
+    color: white;
+}
+input, button {
+    border-radius: 5px;
+}
+
+/* Submit Form Formatting */
+.main-submit-heading {
+    text-align: center;
+    font-size: 3.7em;
+    color: white;
+}
+.text-under-submit-heading {
+    text-align: center;
+    font-size: 1.3em;
+    color: white;
+    padding-top: 0.5em;
+    margin-left: 10em;
+    margin-right: 10em;
+    margin-bottom: 1em;
+}
+video {
+    margin-left: 25em;
+    width: 1200px;
+    height: auto;
+}
+/* Apply padding for the bottom of the page */
+footer {
+    padding-bottom: 0.7em;
+}

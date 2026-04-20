@@ -1,0 +1,46 @@
+/*
+Author: Johnathan Doralus
+Date: 4/19/2026
+Description: Styling for the FAQ webpage.
+*/
+
+/* Main Heading Formatting */
+.main-faq-heading {
+    text-align: center;
+    font-size: 3.7em;
+    color: white;
+
+}
+.text-under-main-faq-heading {
+    text-align: center;
+    font-size: 1.3em;
+    color: white;
+    padding-top: 0.5em;
+    margin-left: 10em;
+    margin-right: 10em;
+    margin-bottom: 1em;
+}
+
+/* Table Formatting */
+table {
+    color: white;
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    margin-bottom: 1em;
+}
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 2em;
+  
+}
+tr:nth-child(even) {
+    background-color: blue;
+}
+/* Apply padding for the bottom of the page */
+footer {
+    padding-bottom: 0.7em;
+}

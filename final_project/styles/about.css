@@ -1,0 +1,47 @@
+/*
+Author: Johnathan Doralus
+Date: 4/19/2026
+Description: Styling for the about.html.
+*/
+
+/* Main Heading Formatting */
+.main-about-heading {
+    text-align: center;
+    font-size: 3.7em;
+    color: white;
+}
+.text-under-about-heading {
+    text-align: center;
+    font-size: 1.3em;
+    color: white;
+    padding-top: 0.5em;
+    margin-left: 10em;
+    margin-right: 10em;
+    margin-bottom: 1em;
+}
+/* Formatting for Two lists */
+.goals {
+    text-align: center;
+    color: black;
+    font-size: 1.2em;
+    padding: 1em;
+}
+.goals p {
+    padding: 1em;
+    font-weight: bold;
+    font-size: 2.3em;
+}
+.goals li {
+    padding: 2em;
+    padding-bottom: 1.5em;
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+    list-style-type: none;
+    font-weight: bold;
+    display: list-item;
+}
+/* Apply padding for the bottom of the page */
+footer {
+    padding-bottom: 0.7em;
+}

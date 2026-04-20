@@ -1,0 +1,44 @@
+/*
+Author: Johnathan Doralus
+Date: 4/19/2026
+Description: Styling for the categories.html and its subsequent children directories.
+*/
+
+/* Main Heading Formatting */
+.main-categories-heading {
+    text-align: center;
+    font-size: 3.7em;
+    color: white;
+}
+.text-under-categories-heading {
+    text-align: center;
+    font-size: 1.3em;
+    color: white;
+    padding-top: 0.5em;
+    margin-left: 10em;
+    margin-right: 10em;
+    margin-bottom: 1em;
+}
+/* Categories List Formatting */
+.categories_list {
+    padding-top: 5.4em;
+    margin: 2em;
+    display: flex;
+}
+.categories_list li {
+    padding-top: 1em;
+}
+.categories_list li a {
+    color: white;
+    text-decoration: none;
+    border: 10px white;
+    font-size: 1.3em;
+}
+.categories_list li a:hover {
+    text-decoration: none;
+    color: orange;
+}
+/* Apply padding for the bottom of the page */
+footer {
+    padding-bottom: 0.7em;
+}
